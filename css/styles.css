@@ -1,0 +1,15 @@
+
+.container {
+   display: flex;
+   justify-content: center;
+}
+
+.string {
+   align-items: center;
+   border: solid 2px;
+   display: flex;
+   justify-content: center;
+   margin: 1rem;
+   padding: 1rem;
+   width: 1rem;
+}
