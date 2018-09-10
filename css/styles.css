@@ -1,11 +1,22 @@
+body {
+   background: url(../assets/theatre_background.jpg) no-repeat center center fixed;
+   background-size: cover;
+}
 
 .container {
+   border: solid 2px #ffffff;
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
+   /* Center the container in the middle of the screen */
+   position:absolute;
+   left:50%;
+   top:50%;
+   transform: translate(-50%, -50%);
 }
 
 .string {
+   color: #ffffff;
    align-items: center;
    border: solid 2px;
    display: flex;
