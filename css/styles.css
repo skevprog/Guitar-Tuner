@@ -4,7 +4,6 @@ body {
 }
 
 .container {
-   border: solid 2px #ffffff;
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
@@ -19,9 +18,9 @@ body {
    color: #ffffff;
    align-items: center;
    border: solid 2px;
+   border-radius: 50%;
    display: flex;
    justify-content: center;
-   margin: 1rem;
    padding: 1rem;
    width: 1rem;
    transition: all 2.9s;
@@ -29,7 +28,8 @@ body {
 
 /*Show that the string is playing*/
 .active {
-   border-color: red;
-   transform: scale(1.5)
+   /* border-color: red; */
+
+   transform: rotate(180deg);
 }
 
