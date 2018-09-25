@@ -24,5 +24,5 @@ function checkSound(className, key) {
    const element = document.querySelector(`.${className}`);
    element.addEventListener('transitionend', (e) => {
       key.classList.remove(`${className}`)
-   }, false)
+   })
 }
